@@ -163,7 +163,7 @@ class SquirrelWindowsTarget extends _appBuilderLib().Target {
       extraMetadataSpecs: projectUrl == null ? null : `\n    <projectUrl>${projectUrl}</projectUrl>`,
       copyright: appInfo.copyright,
       packageCompressionLevel: parseInt(process.env.ELECTRON_BUILDER_COMPRESSION_LEVEL || packager.compression === "store" ? 0 : 9, 10),
-      vendorPath: await (0, _binDownload().getBinFromUrl)("Squirrel.Windows", "1.9.0", "4ubqNFya4LoTqgdLfd7PSzXeKbcP5tQF9ViQP0Pa4mi6ZuuG5xEEZ5aLIY4JfEvkcOlD93avD8Iclq2KTASx6A==")
+      vendorPath: await (0, _binDownload().getBinFromUrl)("Squirrel.Windows", "1.9.0", "2pIWY2Fqp+kT47Vfuihd6lx60A0yHUpjIBSzz5m0XXMcH1o5CJLtiXKnykLbUac1NMCB+FRUNcLSbm8vtdoieQ==")
     }, this.options);
 
     if (options.remoteToken == null) {
