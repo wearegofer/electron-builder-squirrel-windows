@@ -11,7 +11,7 @@
     "out"
   ],
   "dependencies": {
-    "builder-util": "~0.0.0-semantic-release",
+    "builder-util": "~22.2.0",
     "bluebird-lst": "^1.0.9",
     "fs-extra": "^8.1.0",
     "archiver": "^3.0.3",
@@ -21,7 +21,7 @@
     "7zip-bin": "~4.0.2"
   },
   "peerDependencies": {
-    "app-builder-lib": "~0.0.0-semantic-release"
+    "app-builder-lib": "~22.2.0"
   },
   "types": "./out/SquirrelWindowsTarget.d.ts"
 }
